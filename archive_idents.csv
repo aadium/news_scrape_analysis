@@ -1,0 +1,4 @@
+site_url,article_link,title,content,page_format,date_format
+https://techcrunch.com/,"//h2[@class='post-block__title']/a/@href","//h1[@class='article__title']/text()","//div[starts-with(@class,'article-content')]",slash,year_month_day
+https://venturebeat.com/,"//h2[@class='ArticleListing__title']/a/@href","//h1[@class='article-title']/text()","//div[@class='article-content']",slash,year_month_day
+https://www.eu-startups.com/,"//h3[@class='entry-title td-module-title']/a/@href","//h1[@class='tdb-title-text']/text()","//div[@class='tdb-block-inner td-fix-index']/p",slash,year_month
