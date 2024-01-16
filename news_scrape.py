@@ -32,7 +32,7 @@ class Spider1(scrapy.Spider):
         return url
 
     def start_requests(self):
-        start_date = datetime(year=2015, month=1, day=1)
+        start_date = datetime(year=2024, month=1, day=1)
         with open('archive_idents.csv', 'r') as csv_file:
             reader = csv.DictReader(csv_file)
             for row in reader:
